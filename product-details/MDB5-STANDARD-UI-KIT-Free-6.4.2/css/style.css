@@ -1,0 +1,14 @@
+.icon-hover:hover {
+  border-color: #3b71ca !important;
+  background-color: white !important;
+  color: #3b71ca !important;
+}
+
+.icon-hover:hover i {
+  color: #3b71ca !important;
+}
+
+.ex1-pills-2-item-1-bg {
+  background-color: #f0f8ff;
+  /* height: 600px; */
+}
