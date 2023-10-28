@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #212529;
-  --color-primary: #ce1212;
+  --color-primary: #87A96B;
   --color-secondary: #37373f;
 }
 
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #ec2727;
+  color: #87A96B;
   text-decoration: none;
 }
 
@@ -178,7 +178,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #ec2727;
+  background: #87A96B;
   color: #fff;
 }
 
@@ -1283,7 +1283,7 @@ section {
 }
 
 .book-a-table .php-email-form button[type=submit]:hover {
-  background: #ec2727;
+  background: #87A96B;
 }
 
 @keyframes animate-loading {
@@ -1469,7 +1469,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ec2727;
+  background: #87A96B;
 }
 
 @keyframes animate-loading {
