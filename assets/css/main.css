@@ -1525,7 +1525,7 @@ section {
 }
 
 .hero .btn-book-a-table:hover {
-  background: rgba(206, 18, 18, 0.8);
+  background: #006A4E;
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
 }
 
@@ -1550,7 +1550,7 @@ section {
 }
 
 .hero .btn-watch-video:hover i {
-  color: rgba(206, 18, 18, 0.8);
+  color: #006A4E;
 }
 
 @media (max-width: 640px) {
