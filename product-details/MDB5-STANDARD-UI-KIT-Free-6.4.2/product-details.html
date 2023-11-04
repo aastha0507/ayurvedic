@@ -1,77 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Product details</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>Product details</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
-  <!-- Google Fonts Roboto -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
-  <!-- MDB -->
-  <link rel="stylesheet" href="css/mdb.min.css" />
-  <!-- Custom styles -->
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+  <body>
+    <div class="bg-primary">
+      <!-- change CSS for parent page match-->
+      <div class="container py-4">
+        <!-- Breadcrumb -->
+        <nav class="d-flex">
+          <h6 class="mb-0">
+            <a href="" class="text-white-50">Home</a>
+            <span class="text-white-50 mx-2"> > </span>
+            <a href="" class="text-white-50">Library</a>
+            <span class="text-white-50 mx-2"> > </span>
+            <a href="" class="text-white"><u>Data</u></a>
+          </h6>
+        </nav>
+        <!-- Breadcrumb -->
+      </div>
+    </div>
 
-<body>
-  <!-- content -->
-  <section class="py-5">
-    <div class="container">
-      <div class="row gx-5">
-        <aside class="col-lg-6">
-          <div class="border rounded-4 mb-3 d-flex justify-content-center">
-            <a data-fslightbox="mygalley" class="rounded-4" target="_blank" data-type="image"
-              href="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big.webp">
-              <img style="max-width: 100%; max-height: 100vh; margin: auto" class="rounded-4 fit"
-                src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big.webp" />
-            </a>
-          </div>
-          <div class="d-flex justify-content-center mb-3">
-            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image"
-              href="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big1.webp"
-              class="item-thumb">
-              <img width="60" height="60" class="rounded-2"
-                src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big1.webp" />
-            </a>
-            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image"
-              href="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big2.webp"
-              class="item-thumb">
-              <img width="60" height="60" class="rounded-2"
-                src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big2.webp" />
-            </a>
-            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image"
-              href="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big3.webp"
-              class="item-thumb">
-              <img width="60" height="60" class="rounded-2"
-                src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big3.webp" />
-            </a>
-            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image"
-              href="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big4.webp"
-              class="item-thumb">
-              <img width="60" height="60" class="rounded-2"
-                src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big4.webp" />
-            </a>
-            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image"
-              href="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big.webp"
-              class="item-thumb">
-              <img width="60" height="60" class="rounded-2"
-                src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big.webp" />
-            </a>
-          </div>
-          <!-- thumbs-wrap.// -->
-          <!-- gallery-wrap .end// -->
-        </aside>
-        <main class="col-lg-6">
-          <div class="ps-lg-3">
-            <h4 class="title text-dark">
-              Quality Men's Hoodie for Winter, Men's Fashion <br />
-              Casual Hoodie
-            </h4>
+    <!-- content -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row gx-5">
+          <aside class="col-lg-6">
+            <div class="border rounded-4 mb-3 d-flex justify-content-center">
+              <a
+                data-fslightbox="mygalley"
+                class="rounded-4"
+                target="_blank"
+                data-type="image"
+              >
+                <!-- href="#" -->
+                <img
+                  style="max-width: 100%; max-height: 100vh; margin: auto"
+                  id="display-img"
+                  class="rounded-4 fit"
+                  src="./img/kumkumadi_kesara_tailam/talum.webp"
+                />
+              </a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+              <a
+                data-fslightbox="mygalley"
+                class="border mx-1 rounded-2"
+                target="_blank"
+                data-type="image"
+                class="item-thumb"
+              >
+                <!-- href="./img/kumkumadi_kesara_tailam/talum.webp" -->
+                <img
+                  width="60"
+                  height="60"
+                  class="rounded-2 product-imgs"
+                  src="./img/kumkumadi_kesara_tailam/talum.webp"
+                />
+              </a>
+              <a
+                data-fslightbox="mygalley"
+                class="border mx-1 rounded-2"
+                target="_blank"
+                data-type="image"
+                class="item-thumb"
+              >
+                <!-- href="./img/kumkumadi_kesara_tailam/talum_1.webp" -->
+                <img
+                  width="60"
+                  height="60"
+                  class="rounded-2 product-imgs"
+                  src="./img/kumkumadi_kesara_tailam/talum_1.webp"
+                />
+              </a>
+              <a
+                data-fslightbox="mygalley"
+                class="border mx-1 rounded-2"
+                target="_blank"
+                data-type="image"
+                class="item-thumb"
+              >
+                <!-- href="./img/kumkumadi_kesara_tailam/talum_2.webp" -->
+                <img
+                  width="60"
+                  height="60"
+                  class="rounded-2 product-imgs"
+                  src="./img/kumkumadi_kesara_tailam/talum_2.webp"
+                />
+              </a>
+              <a
+                data-fslightbox="mygalley"
+                class="border mx-1 rounded-2"
+                target="_blank"
+                data-type="image"
+                class="item-thumb"
+              >
+                <!-- href="./img/kumkumadi_kesara_tailam/talum_3.webp" -->
+                <img
+                  width="60"
+                  height="60"
+                  class="rounded-2 product-imgs"
+                  src="./img/kumkumadi_kesara_tailam/talum_3.webp"
+                />
+              </a>
+              <a
+                data-fslightbox="mygalley"
+                class="border mx-1 rounded-2"
+                target="_blank"
+                data-type="image"
+                class="item-thumb"
+              >
+                <!-- href="./img/kumkumadi_kesara_tailam/talum_4.webp" -->
+                <img
+                  width="60"
+                  height="60"
+                  class="rounded-2 product-imgs"
+                  src="./img/kumkumadi_kesara_tailam/talum_4.webp"
+                />
+              </a>
+            </div>
+            <!-- thumbs-wrap.// -->
+            <!-- gallery-wrap .end// -->
+          </aside>
+          <main class="col-lg-6">
+            <div class="ps-lg-3">
+              <h4 class="title text-dark">
+                KUMKUMADI KESARA TAILAM - Natural Face Serum for A Golden Glow
+              </h4>
 
-            <!-- <div class="d-flex flex-row my-3">
+              <!-- <div class="d-flex flex-row my-3">
                 <div class="text-warning mb-1 me-2">
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
@@ -87,62 +165,179 @@
                 <span class="text-success ms-2">In stock</span>
               </div> -->
 
-            <div class="mb-3">
-              <span class="h5">$75.00</span>
-              <span class="text-muted">/per box</span>
-            </div>
+              <!-- <div class="mb-3">
+                <span class="h5">$75.00</span>
+                <span class="text-muted">/per box</span>
+              </div> -->
 
-            <p>
-              Modern look and quality demo item is a streetwear-inspired
-              collection that continues to break away from the conventions of
-              mainstream fashion. Made in Italy, these black and brown
-              clothing low-top shirts for men.
-            </p>
+              <p>
+                A timeless tribute to tradition and beauty, Kumkumadi Kesara
+                Tailam is the ancient formulation from the Ayurvedic text of
+                ‘Bhaisajya Ratnavali’.
+              </p>
+              <p>
+                This exotic blend of rare Ayurvedic herbs includes "Kesara - The
+                Royal Saffron", as its main ingredient, blended with
+                super-nourishing goat’s milk to energize & reactivate the skin.
+                The blended energy of various herbs makes Kumkumadi Kesara a
+                powerful skin food.
+              </p>
+              <p>
+                Kumkumadi Kesara restores skin elasticity, brightens the
+                complexion & improves skin texture by feeding the skin with a
+                host of vital nutrients.
+              </p>
+              <ul>
+                <li>
+                  Arrests the signs of aging such as fine lines, wrinkles, and
+                  dark spots.
+                </li>
+                <li>Evens out skin tone and Illuminates dull complexion</li>
+                <li>Deeply hydrates and nourishes the skin</li>
+                <li>Restores skin elasticity</li>
+                <li>Soothes and calms inflamed skin</li>
+                <li>Reverses sun damage and tanning</li>
+              </ul>
 
-            <div class="row">
-              <dt class="col-3">Type:</dt>
-              <dd class="col-9">Regular</dd>
+              <!-- <div class="row">
+                <dt class="col-3">Type:</dt>
+                <dd class="col-9">Regular</dd>
 
-              <dt class="col-3">Color</dt>
-              <dd class="col-9">Brown</dd>
+                <dt class="col-3">Color</dt>
+                <dd class="col-9">Brown</dd>
 
-              <dt class="col-3">Material</dt>
-              <dd class="col-9">Cotton, Jeans</dd>
+                <dt class="col-3">Material</dt>
+                <dd class="col-9">Cotton, Jeans</dd>
 
-              <dt class="col-3">Brand</dt>
-              <dd class="col-9">Reebook</dd>
-            </div>
+                <dt class="col-3">Brand</dt>
+                <dd class="col-9">Reebook</dd>
+              </div> -->
 
-            <hr />
+              <hr />
 
-            <div class="row mb-4">
-              <div class="col-md-4 col-6">
-                <label class="mb-2">Size</label>
-                <select class="form-select border border-secondary" style="height: 35px">
-                  <option>Small</option>
-                  <option>Medium</option>
-                  <option>Large</option>
-                </select>
-              </div>
-              <!-- col.// -->
-              <div class="col-md-4 col-6 mb-3">
-                <label class="mb-2 d-block">Quantity</label>
-                <div class="input-group mb-3" style="width: 170px">
-                  <button class="btn btn-white border border-secondary px-3" type="button" id="button-addon1"
-                    data-mdb-ripple-color="dark">
-                    <i class="fas fa-minus"></i>
-                  </button>
-                  <input type="text" class="form-control text-center border border-secondary" placeholder="14"
-                    aria-label="Example text with button addon" aria-describedby="button-addon1" />
-                  <button class="btn btn-white border border-secondary px-3" type="button" id="button-addon2"
-                    data-mdb-ripple-color="dark">
-                    <i class="fas fa-plus"></i>
-                  </button>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-mdb-toggle="collapse"
+                      data-mdb-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      Key Ingredients
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOne"
+                    data-mdb-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Saffron, Licorice, Manjistha
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-mdb-toggle="collapse"
+                      data-mdb-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      How to use
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-mdb-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Apply 3-4 drops of the serum on damp skin and massage in
+                      upward strokes until the serum is absorbed.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-mdb-toggle="collapse"
+                      data-mdb-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      Ingredients
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-mdb-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Saffron, Laksha, Licorice, Sandalwood oil, Manjistha,
+                      Lotus oil, Cold , Pressed Sesame Seed Oil, Cold Pressed
+                      Almond Oil, Cold Pressed Black Seed Oil, Ashwagandha, Aloe
+                      Leaf Extract, Vitamin E, Glycerin, Beeswax.
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <!-- <a href="#" class="btn btn-warning shadow-0"> Buy now </a>
+              <!-- <div class="row mb-4">
+                <div class="col-md-4 col-6">
+                  <label class="mb-2">Size</label>
+                  <select
+                    class="form-select border border-secondary"
+                    style="height: 35px"
+                  >
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4 col-6 mb-3">
+                  <label class="mb-2 d-block">Quantity</label>
+                  <div class="input-group mb-3" style="width: 170px">
+                    <button
+                      class="btn btn-white border border-secondary px-3"
+                      type="button"
+                      id="button-addon1"
+                      data-mdb-ripple-color="dark"
+                    >
+                      <i class="fas fa-minus"></i>
+                    </button>
+                    <input
+                      type="text"
+                      class="form-control text-center border border-secondary"
+                      placeholder="14"
+                      aria-label="Example text with button addon"
+                      aria-describedby="button-addon1"
+                    />
+                    <button
+                      class="btn btn-white border border-secondary px-3"
+                      type="button"
+                      id="button-addon2"
+                      data-mdb-ripple-color="dark"
+                    >
+                      <i class="fas fa-plus"></i>
+                    </button>
+                  </div>
+                </div>
+              </div> -->
+
+              <!-- <a href="#" class="btn btn-warning shadow-0"> Buy now </a>
               <a href="#" class="btn btn-primary shadow-0">
                 <i class="me-1 fa fa-shopping-basket"></i> Add to cart
               </a>
@@ -152,175 +347,361 @@
               >
                 <i class="me-1 fa fa-heart fa-lg"></i> Save
               </a> -->
-          </div>
-        </main>
-      </div>
-    </div>
-  </section>
-  <!-- content -->
-
-  <section class="bg-light border-top py-4">
-    <div class="container">
-      <div class="row gx-4">
-        <div class="mb-4">
-          <!--col-lg-8-->
-          <div class="border rounded-2 px-3 py-2 bg-white">
-            <!-- Pills navs -->
-            <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
-              <li class="nav-item d-flex" role="presentation">
-                <a class="nav-link d-flex align-items-center justify-content-center w-100 active" id="ex1-tab-1"
-                  data-mdb-toggle="pill" href="#ex1-pills-1" role="tab" aria-controls="ex1-pills-1"
-                  aria-selected="true">Key Ingredients</a>
-              </li>
-              <li class="nav-item d-flex" role="presentation">
-                <a class="nav-link d-flex align-items-center justify-content-center w-100" id="ex1-tab-2"
-                  data-mdb-toggle="pill" href="#ex1-pills-2" role="tab" aria-controls="ex1-pills-2"
-                  aria-selected="false">Making</a>
-              </li>
-              <li class="nav-item d-flex" role="presentation">
-                <a class="nav-link d-flex align-items-center justify-content-center w-100" id="ex1-tab-3"
-                  data-mdb-toggle="pill" href="#ex1-pills-3" role="tab" aria-controls="ex1-pills-3"
-                  aria-selected="false">Benifits</a>
-              </li>
-              <li class="nav-item d-flex" role="presentation">
-                <a class="nav-link d-flex align-items-center justify-content-center w-100" id="ex1-tab-4"
-                  data-mdb-toggle="pill" href="#ex1-pills-4" role="tab" aria-controls="ex1-pills-4"
-                  aria-selected="false">Seller profile</a>
-              </li>
-            </ul>
-            <!-- Pills navs -->
-
-            <!-- Pills content -->
-            <div class="tab-content" id="ex1-content">
-              <!-- tab-1 begin -->
-              <div class="tab-pane fade show active" id="ex1-pills-1" role="tabpanel" aria-labelledby="ex1-tab-1">
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                    <div class="card">
-                      <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big3.webp"
-                        class="card-img-top" alt="Fissure in Sandstone" />
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          Some quick example text to build on the card title
-                          and make up the bulk of the card's content.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                    <div class="card">
-                      <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big3.webp"
-                        class="card-img-top" alt="Fissure in Sandstone" />
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          Some quick example text to build on the card title
-                          and make up the bulk of the card's content.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                    <div class="card">
-                      <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big3.webp"
-                        class="card-img-top" alt="Fissure in Sandstone" />
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          Some quick example text to build on the card title
-                          and make up the bulk of the card's content.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                    <div class="card">
-                      <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big3.webp"
-                        class="card-img-top" alt="Fissure in Sandstone" />
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          Some quick example text to build on the card title
-                          and make up the bulk of the card's content.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                    <div class="card">
-                      <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big3.webp"
-                        class="card-img-top" alt="Fissure in Sandstone" />
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          Some quick example text to build on the card title
-                          and make up the bulk of the card's content.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- tab-1 exit -->
-              <!-- tab-2 begin -->
-              <div class="tab-pane fade mb-2" id="ex1-pills-2" role="tabpanel" aria-labelledby="ex1-tab-2">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md">
-                      <div class="bg-image hover-zoom">
-                        <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big3.webp"
-                          class="w-100 img-fluid" width="50%" />
-                      </div>
-                    </div>
-                    <div class="col-md ex1-pills-2-item-1-bg d-flex justify-content-center align-items-center">
-                      <p class="text-center">
-                        sadflasjdlkajsldjlkas'd sadashkdjhjkashdasd <br />
-                        asdnahsdkhasdjahskd ajsdoahsoda doaushdasldhajsh
-                        jhskdjahskd dasldhlashfsjfkashf'akahsjkdhak
-                        uihaeiuwdanxn
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- tab-2 exit -->
-              <!-- tab-3 begin -->
-              <div class="tab-pane fade mb-2" id="ex1-pills-3" role="tabpanel" aria-labelledby="ex1-tab-3">
-                Another tab content or sample information now <br />
-                Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi
-                ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id
-                est laborum.
-              </div>
-              <!-- tab-3 exit -->
-              <!-- tab-4 begin -->
-              <div class="tab-pane fade mb-2" id="ex1-pills-4" role="tabpanel" aria-labelledby="ex1-tab-4">
-                Some other tab content or sample information now <br />
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
-              </div>
-              <!-- tab-4 exit -->
             </div>
-            <!-- Pills content -->
-          </div>
+          </main>
         </div>
+      </div>
+    </section>
+    <!-- content -->
 
-        <!-- <div class="col-lg-4">
+    <section class="bg-light border-top py-4">
+      <div class="container">
+        <div class="row gx-4">
+          <div class="mb-4">
+            <!--col-lg-8-->
+            <div class="border rounded-2 px-3 py-2 bg-white">
+              <!-- Pills navs -->
+              <ul
+                class="nav nav-pills nav-justified mb-3"
+                id="ex1"
+                role="tablist"
+              >
+                <li class="nav-item d-flex" role="presentation">
+                  <a
+                    class="nav-link d-flex align-items-center justify-content-center w-100 active"
+                    id="ex1-tab-1"
+                    data-mdb-toggle="pill"
+                    href="#ex1-pills-1"
+                    role="tab"
+                    aria-controls="ex1-pills-1"
+                    aria-selected="true"
+                    >Key Ingredients</a
+                  >
+                </li>
+                <li class="nav-item d-flex" role="presentation">
+                  <a
+                    class="nav-link d-flex align-items-center justify-content-center w-100"
+                    id="ex1-tab-2"
+                    data-mdb-toggle="pill"
+                    href="#ex1-pills-2"
+                    role="tab"
+                    aria-controls="ex1-pills-2"
+                    aria-selected="false"
+                    >Making</a
+                  >
+                </li>
+                <li class="nav-item d-flex" role="presentation">
+                  <a
+                    class="nav-link d-flex align-items-center justify-content-center w-100"
+                    id="ex1-tab-3"
+                    data-mdb-toggle="pill"
+                    href="#ex1-pills-3"
+                    role="tab"
+                    aria-controls="ex1-pills-3"
+                    aria-selected="false"
+                    >Benifits</a
+                  >
+                </li>
+              </ul>
+              <!-- Pills navs -->
+
+              <!-- Pills content -->
+              <div class="tab-content" id="ex1-content">
+                <!-- tab-1 begin -->
+                <div
+                  class="tab-pane fade show active"
+                  id="ex1-pills-1"
+                  role="tabpanel"
+                  aria-labelledby="ex1-tab-1"
+                >
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                      <div class="card mb-4">
+                        <img
+                          src="./img/Ingredients/saffron.webp"
+                          class="card-img-top"
+                          alt="Fissure in Sandstone"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Kesara (Saffron)</h5>
+                          <p class="card-text">
+                            Kesara is the royal spice & transformational
+                            ingredient known to illuminate the complexion &
+                            impart a golden glow on the skin.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                      <div class="card mb-4">
+                        <img
+                          src="./img/Ingredients/licorice.webp"
+                          class="card-img-top"
+                          alt="Fissure in Sandstone"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Mulethi (Licorice)</h5>
+                          <p class="card-text">
+                            A natural anti-aging solution, licorice acts as an
+                            important ingredient for dull skin.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                      <div class="card mb-4">
+                        <img
+                          src="./img/Ingredients/manjistha.webp"
+                          class="card-img-top"
+                          alt="Fissure in Sandstone"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Manjistha</h5>
+                          <p class="card-text">
+                            Called the Indian Madder, Manjistha acts as a skin
+                            purifier with astringent properties.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- tab-1 exit -->
+                <!-- tab-2 begin -->
+                <div
+                  class="tab-pane fade mb-2"
+                  id="ex1-pills-2"
+                  role="tabpanel"
+                  aria-labelledby="ex1-tab-2"
+                >
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md">
+                        <div class="bg-image hover-zoom">
+                          <img
+                            src="./img/kumkumadi_kesara_tailam/talum_3.webp"
+                            class="w-100 img-fluid"
+                            width="50%"
+                          />
+                        </div>
+                      </div>
+                      <!-- d-flex justify-content-center align-items-center -->
+                      <div
+                        class="col-md ex1-pills-2-item-1-bg d-flex justify-content-center align-items-center"
+                      >
+                        <!-- class="text-left" -->
+                        <div class="text-justify">
+                          <p>
+                            The miraculous blend of Kumkumadi Kesara is a union
+                            of sacred herbal essences with Royal Saffron and
+                            Rose Water.
+                          </p>
+                          <p>
+                            The mixture of 21 carefully selected herbal extracts
+                            when boiled in water forms a decoction called
+                            ‘Kwath’.
+                          </p>
+                          <p>
+                            This Kwath is then gracefully added to the fusion of
+                            Manjistha, Laksha, and Mulethi called ‘Kalka’.
+                          </p>
+                          <p>
+                            The final blend is then harmoniously bound by Sesame
+                            Oil and Goat’s Milk and boiled over flames until
+                            only the oil remains.
+                          </p>
+                          <p>
+                            This golden liquid mixes with a tincture of Royal
+                            Saffron and Rose Water, resulting in the creation of
+                            Kumkumadi Kesara.
+                          </p>
+                          <p>
+                            To preserve its efficacy, we place the miraculous
+                            elixir in a dark glass bottle.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- tab-2 exit -->
+                <!-- tab-3 begin -->
+                <div
+                  class="tab-pane fade mb-2"
+                  id="ex1-pills-3"
+                  role="tabpanel"
+                  aria-labelledby="ex1-tab-3"
+                >
+                  <div class="container">
+                    <!-- first benefit -->
+                    <div class="row mb-4">
+                      <!-- d-flex justify-content-center align-items-center -->
+                      <div
+                        class="col-md ex1-pills-2-item-1-bg d-flex justify-content-center align-items-center"
+                      >
+                        <!-- class="text-left" -->
+                        <div class="text-center">
+                          <h4>Arrests the Signs of Aging</h4>
+                          <p>
+                            Rich in antioxidants from over 21 herbs, this blend
+                            protects the skin from sun damage and further
+                            reduces the appearance of dark spots, fine lines,
+                            and wrinkles.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="col-md">
+                        <div class="bg-image hover-zoom">
+                          <img
+                            src="./img/kumkumadi_kesara_tailam/talum_benefit_1.webp"
+                            class="w-100 img-fluid"
+                            width="50%"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- second benefit -->
+                    <div class="row mb-4">
+                      <div class="col-md">
+                        <div class="bg-image hover-zoom">
+                          <img
+                            src="./img/kumkumadi_kesara_tailam/talum_benefit_2.webp"
+                            class="w-100 img-fluid"
+                            width="50%"
+                          />
+                        </div>
+                      </div>
+
+                      <!-- d-flex justify-content-center align-items-center -->
+                      <div
+                        class="col-md ex1-pills-2-item-1-bg d-flex justify-content-center align-items-center"
+                      >
+                        <!-- class="text-left" -->
+                        <div class="text-center">
+                          <h4>Illuminates Dull Complexion</h4>
+                          <p>
+                            Royal saffron and licorice lend their lightening
+                            properties to the skin, granting you an even-toned
+                            texture.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- third benefit -->
+                    <div class="row mb-4">
+                      <!-- d-flex justify-content-center align-items-center -->
+                      <div
+                        class="col-md ex1-pills-2-item-1-bg d-flex justify-content-center align-items-center"
+                      >
+                        <!-- class="text-left" -->
+                        <div class="text-center">
+                          <h4>Deeply Hydrates the Skin</h4>
+                          <p>
+                            The rich mineral content & lactic acid of Goat Milk
+                            hydrates, nourishes & clarifies the skin to reveal a
+                            healthy complexion.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="col-md">
+                        <div class="bg-image hover-zoom">
+                          <img
+                            src="./img/kumkumadi_kesara_tailam/talum_benefit_3.webp"
+                            class="w-100 img-fluid"
+                            width="50%"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- fourth benefit -->
+                    <div class="row mb-4">
+                      <div class="col-md">
+                        <div class="bg-image hover-zoom">
+                          <img
+                            src="./img/kumkumadi_kesara_tailam/talum_benefit_4.webp"
+                            class="w-100 img-fluid"
+                            width="50%"
+                          />
+                        </div>
+                      </div>
+
+                      <!-- d-flex justify-content-center align-items-center -->
+                      <div
+                        class="col-md ex1-pills-2-item-1-bg d-flex justify-content-center align-items-center"
+                      >
+                        <!-- class="text-left" -->
+                        <div class="text-center">
+                          <h4>Restores Skin Elasticity</h4>
+                          <p>
+                            Kumkumadi Kesara’s smooth texture makes it an
+                            effective facial massage oil that enhances skin
+                            firmness and elasticity.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- fifth benefit -->
+                    <div class="row mb-4">
+                      <!-- d-flex justify-content-center align-items-center -->
+                      <div
+                        class="col-md ex1-pills-2-item-1-bg d-flex justify-content-center align-items-center"
+                      >
+                        <!-- class="text-left" -->
+                        <div class="text-center">
+                          <h4>Imparts a Dewy Finish</h4>
+                          <p>
+                            This velvety-smooth serum penetrates seamlessly
+                            through the skin and imparts a dewy finish, making
+                            you forget the need for make-up!
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="col-md">
+                        <div class="bg-image hover-zoom">
+                          <img
+                            src="./img/kumkumadi_kesara_tailam/talum_benefit_5.webp"
+                            class="w-100 img-fluid"
+                            width="50%"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- tab-3 exit -->
+                <!-- tab-4 begin -->
+                <!-- <div
+                  class="tab-pane fade mb-2"
+                  id="ex1-pills-4"
+                  role="tabpanel"
+                  aria-labelledby="ex1-tab-4"
+                >
+                  Some other tab content or sample information now <br />
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </div> -->
+                <!-- tab-4 exit -->
+              </div>
+              <!-- Pills content -->
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4">
             <div class="px-0 border rounded-2 shadow-0">
               <div class="card">
                 <div class="card-body">
@@ -394,14 +775,13 @@
               </div>
             </div>
           </div> -->
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- MDB -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Custom scripts -->
-  <script type="text/javascript" src="js/script.js"></script>
-</body>
-
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/product-details-scripts.js"></script>
+  </body>
 </html>
