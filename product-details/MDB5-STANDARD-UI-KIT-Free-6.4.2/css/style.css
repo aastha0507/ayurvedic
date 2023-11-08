@@ -8,7 +8,47 @@
   color: #3b71ca !important;
 }
 
+.tab-content .row {
+  justify-content: space-evenly;
+}
+
 .ex1-pills-2-item-1-bg {
   background-color: #f0f8ff;
   /* height: 600px; */
+}
+
+.brand-section {
+  padding: 25px 0;
+  background-color: #c9e6b1;
+}
+
+.brand-section-container {
+  padding: 0 15px;
+  margin: 20px auto;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1.6em;
+  text-align: center;
+}
+
+.brand-section-header {
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 26px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.brand-section-content {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.brand-hallmarks {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
 }
